@@ -1,38 +1,70 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>jQuery Mobile Example</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-</head>
-
-<body>
-  <div data-role="page" date-theme="c">
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Kentico CMS</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+ 
+<!--- Begin First Page -->
+<div id="page1" data-role="page">
     <div data-role="header">
-      <h1>fCC jQuery Mobile Sample</h1>
-    </div>
-    <div data-role="content">
-      <p>COVID-19 Work-From-Home Team Management Mistakes To Avoid</p>
-    </div>
-    <p>
-    <ul data-role="listview" data-inset="true" data-filter="true"></ul>
-    </p>
-    <p>
-    <ul>
-      <li><a href="#">Using Unnecessary Tools</a></li>
-      <li><a href="#">Foregoing Team Evaluations</a></li>
-      <li><a href="#">Micromanaging</a></li>
-      <li><a href="#">Hiring Too Quickly</a></li>
-      <li><a href="#">Not Having Contingencies</a></li>
-    </ul>
-    </p>
+        <h1>Welcome to Page 1</h1>
+    </div><!-- /header -->
+    <div data-role="content">         
+        <ul data-role="listview" data-inset="true" data-filter="true">              
+            <li><a href="#page2"> Page 2</a></li>
+            <li><a href="#page3"> Page 3</a></li>            
+        </ul>
+    </div><!-- /content -->
     <div data-role="footer">
-      <h4>alfrickopidi.com, 2020 - Copyright</h4>
+    <h4> Get Kentico CMS</h4>
+    </div><!-- /footer-->
     </div>
-  </div>
+   </div>
+   <!-- End First Page -->
+ 
+ 
+ 
+<!--- Begin Second Page -->
+<div id="page2" data-role="page">
+    <div data-role="header">
+        <h1>Welcome to Page 2</h1>
+    </div><!-- /header -->
+    <div data-role="content">         
+        <ul data-role="listview" data-inset="true" data-filter="true">            
+            <li><a href="#page1"> Page 1</a></li>
+            <li><a href="#page3"> Page 3</a></li>            
+        </ul>
+    </div><!-- /content -->
+    <div data-role="footer">
+    <h4> Get Kentico CMS</h4>
+    </div><!-- /footer-->
+    </div>
+   </div>
+   <!-- End Second Page -->
+ 
+ 
+<!--- Begin Third Page -->
+<div id="page3" data-role="page">
+    <div data-role="header">
+        <h1>Welcome to Page 3</h1>
+    </div><!-- /header -->
+    <div data-role="content">         
+        <ul data-role="listview" data-inset="true" data-filter="true">
+            <li><a href="#page1"> Page 1</a></li>
+            <li><a href="#page2"> Page 2</a></li>
+             
+        </ul>
+    </div><!-- /content -->
+    <div data-role="footer">
+    <h4> Get Kentico CMS</h4>
+    </div><!-- /footer-->
+    </div>
+   </div>
+   <!-- End Third Page -->
 </body>
-
 </html>
